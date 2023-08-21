@@ -1,0 +1,207 @@
+
+----------------------Introduction--------------------------------
+
+- Java is a object-oriented, general-purpose, high-level programming language.
+  developed by James Gosling and his team at Sun Microsystems and released in   1995.
+- Oracle Corporation aquired SunMicrosystems in January 27, 2010.
+- SunMicrosystem was conducting exams based on Java SCJP  (SunCertifiedJavaProffessional)
+  Now Oracle conducting those exams in the name OCJP  (OracleCertifiedJavaProffessional)
+- The Initial name of Java is Oak. Later they changed it to Java  (NameofTheCoffeeFlavour).
+- you can use Java programming for developing mobile applications, enterprise web application, embedded systems Ex: Elevator(lift), WashingMachines, CarMusicPlayers, DeskTopApplications,BigDataTechnologies(DataProcessing) - ApacheHadoop and ApacheSpark(BigDataFrameworks), ScientificApplications, GameDevelopment. 
+
+- Java Programming laguage is also called as Java platform.
+- Java is a high level programming language.
+
+- Open Sourcing: In 2006, Sun Microsystems released the source code of Java under the GNU General Public License (GPL) as OpenJDK, allowing developers to view, modify, and contribute to its development. 
+
+High Level programming language
+---------------------------------
+-Programmer friendly
+-easy to understand
+Ex: C++, Java, Python, JavaScript, Ruby
+
+Low Level Programming Language
+----------------------------------
+- Machine friendly
+- difficult to understand
+Note: Low level programming language provides a close representation of the hardware and allows direct control over the system's resources.
+
+Ex: Assembly Language, COBOL, FORTRAN
+
+- Machine can only understand 0s and 1s 
+
+- Since computers can't able to understand high level programming languages, compilers and interpreters are used to for translation, translating from high level to machine level code.
+
+Translators
+------------
+Converting the code from high level language to machine laguage.
+
+Translators two types
+--------------------
+1. Compilers
+2. Interpreters
+
+
+Compilers VS Interpreters
+---------------------------
+1. Compiled Programming Languages -> C, C++, Java
+2. Interpreted Programming Languge -> Python
+3. In case of compilers: compiler takes the entire code at once and it will generate the machine level code.
+4. In case of Interpreter: interpreter converts the high level laguage to the machine level code line by line. NOT AT ONCE
+
+JAVA IS BOTH COMPILED AND INTERPRETED -> THAT WILL BE DECIDED BY THE JVM(Java Virtual Machine)
+
+- JDK (software development kit) that includes everything needed to develop, compile and debug java applications, includes various development libraries.
+
+-JRE (SoftwarePackage) provides necessary runtime environment for executing Java applications.it includes JVM as well.
+
+-JVM - Provides an execution environment for JavaAppliations.
+
+Summarry:: The JDK is used by developers for Java Application Development. The JRE is required for end-users to run JavaApplications, and the JVM is responsible for executing Java bytecode and provides plarform independence.
+
+- Java is object-oriented Programming Language NOT object-based
+- Python is object based, Interpreted. Everything in case of python is object only.
+
+-Java is Developed By James Gowsling in the year of 1995 while he was working at Sun Microsystems.
+-The initial name of Java is Oak, Later they changed it to "Java" Java means, a flavor of coffee.
+
+-James Gowsling is also called as Father of Java Programming Language.
+
+Feature of Java programming Language
+----------------------------------
+1. Object Oriented
+2. Platform Indepent
+3. Secured
+4. Auto Memory Management 
+5. Exception Handling Mechanism
+6. Multi-Threaded Programming Language
+7. High Performance
+8. Portable
+
+
+1. Object Oriented
+---------------
+An object is a real world entity, that is having properties and behaviours.
+Ex: Dog -> Object
+    properties -> name, age, gender, weight, breed, color
+    behaviours -> run, eat, sleep, bark, bite, chase a cat
+This type of developement is not possible in case of C programming laguage(it is procedural language)
+
+2. Platform Independent
+-----------------------
+Java is Write Once and Run Anywhere(WORA) that means achitechture neutral.
+This is possible because of Byte Code. 
+Initially Java Compiler will compile the java program and produces a ".class" file.
+Inside that .class file byte code will be available. that byte code (that .class file) is platform independent. 
+There is an internal mechanism called JVM (Java Virtual Machine) that is available inside the JDK(Java Development Kit) software itself.
+The JVM will be converting that Byte code to the corresponding machine level code.
+The byte code that we have developed by using any operating system, can ran on any other operating system. There is no need of changing anything to source code. THIS IS NOT POSSIBLE IN CASE OF C
+-JDK itself is not platform independent but the byte code is platform independent. 
+
+3. Secured
+-------------
+- We can avoid security issue in case of Java, bcz in java there is no pointers concept.(in case of pointers concept, if we miss manage the memory by using pointers then there will be a securiy issue, hackers might breach the data and also pointers concept is very confusing) C PROGRAMMING LAGUAGE USES POINTERS BUT NOT JAVA
+ 
+4. Auto Memory Management
+-------------------------
+- In case of Java There is a auto-memory management by using Garbage collector. 
+ 
+5. Exception Handling Mechanism
+----------------------------------
+- To maintain the normal flow of execution we have Exception Handling
+THIS IS NOT AVAILABLE IN C
+
+6. Multi-Threaded Programming Language
+--------------------------------------
+- To increase the efficiency of the CPU and parallel execution. 
+THIS IS NOT AVAILABLE IN C
+
+7. High Performance
+-------------------------------
+- By using JIT(Just In-Time Compiler)
+
+8. Portable
+-----------
+- Refere to Achitecture Neutrality (byte can be easily run on any platform) we can take the byte code and run it on any plaform.
+
+
+- Most of the companies will be choosing Java to build their business applications.
+
+
+The Lastest of Java is 20 
+
+- The Latest edition of Java might not be supported by all the platforms(AWS, Azure, Google Cloud)
+- The industry standard and which is supported by all the platforms is Java 8
+- That is why we will download and install and work with Java 8
+- We will be also learning about all the new features and new concepts that has been introduced in the latest editions of java.
+
+Java SE - Standard Edition
+
+Java SE Development Kit 8u371 
+u == update
+
+JDK software is available for 
+---------------------
+Linux
+macOS
+Solaris
+Windows
+
+According to the system architecture you need to select the installer
+it can *86 (32 bit) or *64 (64 bit) operating system, or processor
+ check - right click on this PC -> under system type you will find that.
+
+*86 is compatible with only 32 bit system architecture if the system architecture is 32 bit only. 
+if your system is 64 bit then both *86 and *64 is compatible.
+
+
+select this file jdk-8u371-windows-x64.exe
+
+
+Along with JDK software - > JRE and also JVM
+
+JDK - Development purpose
+JRE - Production purpose
+JVM - Provides an environment to run(execute) byte code 
+
+(Inside the JRE JVM will be there)
+
+- Currently Java No.1 Development Platform(Business and Banking Applications)
+- So many devices are running by using Java. Ex: Car Music Systems, lifts, Washing Machines(as embedded softwares), Android TVs, Smart Phones etc..
+
+
+to find out the java version that is installed in our system trigger
+java -version
+
+software version analysis
+major  minor  updates or patches
+1   .   8  .  0_371
+
+After the installation of JDK the first thing we need to do is setting the path environment varible.(or updating the path environment variable)
+
+D>Developmentsoftwares>JDK8>bin || copy this folder location from the address bar
+
+Right click on this pc -> properties -> AdvancedSystemSettings -> EnvironmentVariable - UserLevel -> select the path variable if already existing
+and click on edit -> click on new -> paste the copied path of bin folder -> click on ok and in all the remaining windows.
+
+if the path variable is created yet -> under user variable section -> click on new ->variable name 'path' uppercase of lowercase or mixed case but dont give any spaces in the beginning or in the middle or at end.
+->variable value -> paste the copied bin folder location 
+
+close the previously opened command prompt(before the path setting or path updation). open a new command prompt and trigger javac
+
+Need of setting the path
+------------------
+in order to specify the commands location(java, javac) to the command window we need to set the path.
+
+
+
+
+
+
+
+
+
+
+
+
+
